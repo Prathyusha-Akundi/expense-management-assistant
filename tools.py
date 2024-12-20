@@ -90,7 +90,7 @@ class CalculateCategoryExpensesTool(BaseTool):
         total = 0.0
 
         for categorized_expense in categorized_expenses:
-            # Use the amount from categorized_expense if available, otherwise fall back to the original expense amount
+            
             amount =  categorized_expense.amount
             total += amount
 

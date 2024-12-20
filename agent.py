@@ -29,7 +29,7 @@ class ExpenseAgent:
 
     def answer_query(self, query: str, context: Dict):
         messages = [
-        SystemMessage(content="You are an assistant for expense analysis. Use the provided context to answer the query directly.Do not invoke any tools to answer the query. Strictly answer from context. If there is no enough information to answer from context, respond as 'No Enough Information available to answer the query'"),
+        SystemMessage(content="You are an assistant for expense analysis. Use the provided context to answer the query directly.Do not invoke any tools to answer the query unnecesarily. Strictly answer from context. If there is no enough information to answer from context, respond as 'No Enough Information available to answer the query'"),
         HumanMessage(content=f"Answer the use query based on below context strictly. \nContext: {context} \nUser Query: {query}")
     ]
         return self.agent.invoke(messages )["output"]
