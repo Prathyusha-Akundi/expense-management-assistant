@@ -1,0 +1,14 @@
+Expense ID,Description,Category,Amount
+1,Electricity Bill,Utilities,6440.0
+2,Pillow cover,Shopping,200.0
+3,Bedsheet bhaga,Shopping,700.0
+4,Bedsheet mediu,Shopping,600.0
+5,Bedsheet,Shopping,600.0
+6,Daal Makhni,Groceries,60.0
+7,Plain Chapati,Groceries,80.0
+8,Curd Rice,Groceries,50.0
+9,Net Ticket Charge,Miscellaneous,88.98
+10,CGST,Miscellaneous,8.01
+11,SGST,Miscellaneous,8.01
+12,Service,Miscellaneous,0.0
+13,Additional Charge,Miscellaneous,0.0
